@@ -1,0 +1,148 @@
+body {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  color: rgb(243, 235, 235);
+
+
+}
+
+.formulario {
+  width: 24rem;
+  height: 35rem;
+  background: linear-gradient(to bottom, #cc99ff -7%, #000099 90%);
+  border-radius: 0.5rem;
+  position: absolute;
+  top: calc(50% - 35rem/2);
+  left: calc(50% - 24rem/2);
+
+}
+
+.borde {
+
+  border-radius: 0.5rem;
+  background-color: #f2e6ff;
+  border-style: none;
+  border-radius: 0.8rem;
+}
+
+.tipoUsuario {
+  font-size: 1rem;
+  width: 8rem;
+}
+
+.encabezado {
+  position: relative;
+  width: 16rem;
+  height: 2rem;
+  left: calc(50% - 16rem/2);
+  margin-bottom: 2rem;
+}
+
+.select {
+  position: relative;
+  width: 16rem;
+  height: 2rem;
+  left: calc(50% - 16rem/2);
+  margin-bottom: 2rem;
+  padding-top: 0.75rem;
+}
+
+#encabezado {
+  border-bottom: solid #1a62fce8;
+  width: 16rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+
+.correo {
+  position: relative;
+  width: 16rem;
+  margin: 0;
+  left: calc(50% - 16rem/2);
+  margin-bottom: 2rem;
+
+}
+
+#correo {
+  width: 16rem;
+  height: 1.5rem;
+  margin-top: 0.5rem;
+  padding-left: 0.6rem;
+
+}
+
+.clave {
+  position: relative;
+  width: 16rem;
+  margin: 0;
+  left: calc(50% - 16rem/2);
+  margin-bottom: 2rem;
+}
+
+.codigo {
+  position: relative;
+  width: 16rem;
+  margin: 0;
+  left: calc(50% - 16rem/2);
+  margin-bottom: 2rem;
+}
+
+#codigo {
+  width: 16rem;
+  height: 1.5rem;
+  margin-top: 0.5rem;
+  padding-left: 0.6rem;
+}
+
+#clave {
+  width: 16rem;
+  height: 1.5rem;
+  margin-top: 0.5rem;
+  padding-left: 0.6rem;
+}
+
+.boton {
+  position: relative;
+  width: 16rem;
+  margin: 0;
+  left: calc(50% - 16rem/2);
+  margin-bottom: 2rem;
+  padding-left: 3.5rem;
+}
+
+.vinculo-boton {
+  background-color: #0062ff;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+
+
+.mensaje {
+  position: relative;
+  width: 16rem;
+  margin: 0;
+  left: calc(50% - 8rem/2);
+  margin-bottom: 2rem;
+}
+
+#mensaje {
+  font-size: 0.8rem;
+  display: inline-block;
+  border-top: solid dimgray 0.1rem;
+  padding-top: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.lbl {
+  font-weight: bolder;
+  margin-right: 0.5rem;
+}

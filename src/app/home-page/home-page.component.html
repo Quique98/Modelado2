@@ -1,0 +1,57 @@
+<div class="contenedor-menu">
+    <ul class="menu">
+        <li><a (click)="sidebarNavigate('Perfil')">Perfil</a>
+        </li>
+        <li><a (click)="sidebarNavigate('Resultados')">Resultados</a>
+        </li>
+        <li><a (click)="sidebarNavigate('Crear_Simulacion')">Crear simulación</a>
+        </li>
+        <li><a (click)="onLogoutClick()">Cerrar sesión</a>
+        </li>
+
+    </ul>
+</div>
+<div *ngIf="seccion=='Perfil'">
+    <div class="contenido">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    Nombre: {{user.nombre}}
+                </div>
+                <div class="col-12">
+                    Apellido Paterno: {{user.apellidoPaterno}}
+                </div>
+                <div class="col-12">
+                    Apellido Materno: {{user.apellidoMaterno}}
+                </div>
+                <div class="col-12">
+                    Correo: {{user.correo}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="seccion=='Resultados'">
+    <div class="contenido">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    Resultados
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="seccion=='Crear_Simulacion'">
+    <div class="contenido">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    Simulación
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

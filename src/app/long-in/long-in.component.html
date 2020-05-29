@@ -1,0 +1,38 @@
+<body>
+
+    <section class="formulario">
+        <ng-flash-message></ng-flash-message>
+        <form (submit)="onLoginSubmit()">
+            <div class="encabezado">
+                <h1 id="encabezado">Iniciar sesión</h1>
+            </div>
+            <div class="select">
+                <label class="lbl">Tipo: </label>
+                <select class="tipoUsuario" id="tipoUsuario" (change)="CambioDeUsuario()">
+                    <option value="Maestro" selected>Maestro</option>
+                    <option value="Alumno">Alumno</option>
+                </select>
+
+            </div>
+            <div class="correo">
+                <label class="lbl" for="name">Correo</label>
+                <input [(ngModel)]="correo" type="text" name="correo" id="correo" class="borde">
+            </div>
+            <div class="clave">
+                <label class="lbl">Contraseña</label>
+                <input [(ngModel)]="contrasena" type="password" name="contrasena" id="clave" class="borde">
+            </div>
+            <div class="codigo" style="display: none;">
+                <label class="lbl">Código</label>
+                <input type="text" name="" id="codigo" class="borde">
+            </div>
+
+            <div class="boton">
+                <button type="submit" class="vinculo-boton">Iniciar Sesión</button>
+            </div>
+            <div class="mensaje">
+                <a id="mensaje" [routerLink]="['/sign-up']">Registar una cuenta</a>
+            </div>
+        </form>
+    </section>
+</body>
